@@ -1,14 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background: url(../pictures/1.jpg) no-repeat;
+  background: url(../images/1.jpg) no-repeat;
   background-size: 100% auto;
   background-attachment: fixed;
 }
 .header {
   width: 1000px;
   height: 200px;
-  background: url(../pictures/2.jpg) no-repeat;
+  background: url(../images/2.jpg) no-repeat;
   background-size: 100% auto;
   margin: 100px auto 0 auto;
 }
@@ -24,7 +24,7 @@ body {
 .avatar {
   width: 135px;
   height: 135px;
-  background: url(../pictures/3.jpg) no-repeat;
+  background: url(../images/3.jpg) no-repeat;
   background-size: 100% auto;
   position: relative;
   border-radius: 100%;
@@ -128,7 +128,7 @@ body {
 .s {
   width: 220px;
   height: 220px;
-  background-image: url(../pictures/e1.png);
+  background-image: url(../images/e1.png);
   background-size: 100% auto;
   position: relative;
   left: 80px;
@@ -147,7 +147,7 @@ body {
 .f {
   width: 180px;
   height: 180px;
-  background: url(../pictures/e2.jpg) no-repeat;
+  background: url(../images/e2.jpg) no-repeat;
   background-size: 100% auto;
   position: relative;
   left: 100px;
@@ -168,7 +168,7 @@ body {
 .u {
   width: 220px;
   height: 220px;
-  background: url(../pictures/u.png) no-repeat;
+  background: url(../images/u.png) no-repeat;
   background-size: 100% auto;
   position: relative;
   left: 80px;
@@ -222,7 +222,7 @@ body {
 .photo1 {
   width: 200px;
   height: 200px;
-  background: url(../pictures/pp1.jpeg) no-repeat;
+  background: url(../images/pp1.jpeg) no-repeat;
   background-size: 100% auto;
   position: absolute;
   left: -340px;
@@ -231,7 +231,7 @@ body {
 .photo2 {
   width: 200px;
   height: 200px;
-  background: url(../pictures/pp2.jpeg) no-repeat;
+  background: url(../images/pp2.jpeg) no-repeat;
   background-size: 100% auto;
   position: absolute;
   left: -120px;
@@ -240,7 +240,7 @@ body {
 .photo3 {
   width: 200px;
   height: 200px;
-  background: url(../pictures/pp3.jpeg) no-repeat;
+  background: url(../images/pp3.jpeg) no-repeat;
   background-size: 100% auto;
   position: absolute;
   left: 100px;
@@ -249,7 +249,7 @@ body {
 .photo4 {
   width: 200px;
   height: 200px;
-  background: url(../pictures/pp4.jpeg) no-repeat;
+  background: url(../images/pp4.jpeg) no-repeat;
   background-size: 100% auto;
   position: absolute;
   left: 320px;
@@ -258,7 +258,7 @@ body {
 .photo5 {
   width: 200px;
   height: 200px;
-  background: url(../pictures/pp5.jpeg) no-repeat;
+  background: url(../images/pp5.jpeg) no-repeat;
   background-size: 100% auto;
   position: absolute;
   left: -340px;
@@ -267,7 +267,7 @@ body {
 .photo6 {
   width: 200px;
   height: 200px;
-  background: url(../pictures/pp6.jpeg) no-repeat;
+  background: url(../images/pp6.jpeg) no-repeat;
   background-size: 100% auto;
   position: absolute;
   left: -120px;
@@ -276,7 +276,7 @@ body {
 .photo7 {
   width: 200px;
   height: 200px;
-  background: url(../pictures/pp7.jpeg) no-repeat;
+  background: url(../images/pp7.jpeg) no-repeat;
   background-size: 100% auto;
   position: absolute;
   left: 100px;
@@ -285,7 +285,7 @@ body {
 .photo8 {
   width: 200px;
   height: 200px;
-  background: url(../pictures/pp8.jpeg) no-repeat;
+  background: url(../images/pp8.jpeg) no-repeat;
   background-size: 100% auto;
   position: absolute;
   left: 320px;
