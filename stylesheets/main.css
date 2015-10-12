@@ -1,0 +1,410 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(./pictures/1.jpg) no-repeat;
+  background-size: 100% auto;
+  background-attachment: fixed;
+}
+.header {
+  width: 1000px;
+  height: 200px;
+  background: url(./pictures/2.jpg) no-repeat;
+  background-size: 100% auto;
+  margin: 100px auto 0 auto;
+}
+.header h1 {
+  font-size: 45px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: -40px;
+  font-family: 'open scan', helvetica, arial, sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+}
+.avatar {
+  width: 135px;
+  height: 135px;
+  background: url(./pictures/3.jpg) no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  border-radius: 100%;
+  top: -67px;
+  margin: 100px auto 0 auto;
+  border: 4px solid #FFF;
+}
+#menue {
+  margin: 0 auto;
+  padding: 0;
+  width: 1000px;
+  height: 50px;
+  background: rgb(0, 200, 0);
+  text-align: center;
+}
+#menue>li {
+  list-style: none;
+  color: #ffffff;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 10px;
+}
+#menue>li a {
+  color: #fff;
+  text-decoration: none;
+}
+#menue>li a.current {
+  text-decoration: underline;
+}
+#menue>li a:hover {
+  text-decoration: underline;
+}
+.underline {
+  background: #333;
+  height: 3px;
+  width: 80px;
+  margin: 16px auto 20px auto;
+}
+.details {
+  width: 1000px;
+  height: 3000px;
+  margin: 40px auto 0 auto;
+  background-color: white;
+}
+.whatido {
+  width: 1000px;
+  height: 600px;
+  background: #fff;
+  text-align: center;
+}
+.whatido h1 {
+  font-size: 30px;
+  color: #111;
+  margin: -40px;
+  font-family: 'open scan', helvetica, arial, sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+}
+.whatido h2 {
+  font-size: 15px;
+  color: #777;
+  margin: 20px;
+  font-family: 'open scan', helvetica, arial, sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+}
+.CODE {
+  width: 320px;
+  height: 135px;
+  background-size: 100% auto;
+  position: absolute;
+  left: 220px;
+  top: 400px;
+  margin: 100px auto 0 auto;
+}
+.DESIGN {
+  width: 300px;
+  height: 135px;
+  background-size: 100% auto;
+  position: absolute;
+  left: 520px;
+  top: 400px;
+  margin: 100px auto 0 auto;
+}
+.PRODUCT {
+  width: 300px;
+  height: 135px;
+  background-size: 100% auto;
+  position: absolute;
+  left: 820px;
+  top: 400px;
+  margin: 100px auto 0 auto;
+}
+.eductionandexperience {
+  width: 1000px;
+  height: 500px;
+  background: #fff;
+  text-align: center;
+}
+.s {
+  width: 220px;
+  height: 220px;
+  background-image: url(./pictures/e1.png);
+  background-size: 100% auto;
+  position: relative;
+  left: 80px;
+  top: 100px;
+}
+.s h2 {
+  font-size: 25px;
+  color: #777;
+  position: relative;
+  left: 200px;
+  top: 0px;
+  font-family: 'open scan', helvetica, arial, sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+}
+.f {
+  width: 180px;
+  height: 180px;
+  background: url(./pictures/e2.jpg) no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  left: 100px;
+  top: 100px;
+}
+.f h2 {
+  font-size: 25px;
+  width: 400px;
+  height: 180px;
+  color: #777;
+  position: relative;
+  left: 220px;
+  top: 0px;
+  font-family: 'open scan', helvetica, arial, sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+}
+.u {
+  width: 220px;
+  height: 220px;
+  background: url(./pictures/u.png) no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  left: 80px;
+  top: 100px;
+}
+.u h2 {
+  font-size: 25px;
+  width: 600px;
+  height: 180px;
+  color: #777;
+  position: relative;
+  left: 240px;
+  top: 0px;
+  font-family: 'open scan', helvetica, arial, sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+}
+.photos {
+  margin: 0 auto;
+  padding: 0;
+  width: 1000px;
+  height: 600px;
+  background: #fff;
+  background-size: 100% auto;
+  margin: 100px auto 0 auto;
+}
+.photos h3 {
+  font-size: 30px;
+  width: 600px;
+  height: 180px;
+  color: #000;
+  position: relative;
+  left: 450px;
+  top: 300px;
+  font-family: 'open scan', helvetica, arial, sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+}
+.photos h4 {
+  font-size: 20px;
+  width: 600px;
+  height: 180px;
+  color: #777;
+  position: relative;
+  left: 400px;
+  top: -40px;
+  font-family: 'open scan', helvetica, arial, sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+}
+.photo1 {
+  width: 200px;
+  height: 200px;
+  background: url(./pictures/pp1.jpeg) no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  left: -340px;
+  top: -150px;
+}
+.photo2 {
+  width: 200px;
+  height: 200px;
+  background: url(./pictures/pp2.jpeg) no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  left: -120px;
+  top: -150px;
+}
+.photo3 {
+  width: 200px;
+  height: 200px;
+  background: url(./pictures/pp3.jpeg) no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  left: 100px;
+  top: -150px;
+}
+.photo4 {
+  width: 200px;
+  height: 200px;
+  background: url(./pictures/pp4.jpeg) no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  left: 320px;
+  top: -150px;
+}
+.photo5 {
+  width: 200px;
+  height: 200px;
+  background: url(./pictures/pp5.jpeg) no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  left: -340px;
+  top: 60px;
+}
+.photo6 {
+  width: 200px;
+  height: 200px;
+  background: url(./pictures/pp6.jpeg) no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  left: -120px;
+  top: 60px;
+}
+.photo7 {
+  width: 200px;
+  height: 200px;
+  background: url(./pictures/pp7.jpeg) no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  left: 100px;
+  top: 60px;
+}
+.photo8 {
+  width: 200px;
+  height: 200px;
+  background: url(./pictures/pp8.jpeg) no-repeat;
+  background-size: 100% auto;
+  position: absolute;
+  left: 320px;
+  top: 60px;
+}
+.touch {
+  margin: 0 auto;
+  padding: 0;
+  width: 1000px;
+  height: 300px;
+  background: #fff;
+  background-size: 100% auto;
+  margin: 100px auto 0 auto;
+}
+.touch h2 {
+  font-size: 30px;
+  width: 600px;
+  height: 180px;
+  color: #000;
+  position: relative;
+  left: 400px;
+  top: 200px;
+  font-family: 'open scan', helvetica, arial, sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+}
+.touch h6 {
+  color: #777;
+  position: relative;
+  left: 30px;
+  top: -40px;
+  font-family: 'open scan', helvetica, arial, sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+}
+.facebook {
+  width: 150px;
+  height: 135px;
+  background-size: 100% auto;
+  position: absolute;
+  left: -250px;
+  top: -200px;
+  margin: 100px auto 0 auto;
+  border: 4px solid #ffffff;
+}
+.twitter {
+  width: 150px;
+  height: 135px;
+  background-size: 100% auto;
+  position: absolute;
+  left: -70px;
+  top: -200px;
+  margin: 100px auto 0 auto;
+  border: 4px solid #ffffff;
+}
+.LinkedIn {
+  width: 150px;
+  height: 135px;
+  background-size: 100% auto;
+  position: absolute;
+  left: 110px;
+  top: -200px;
+  margin: 100px auto 0 auto;
+  border: 4px solid #ffffff;
+}
+.sherry {
+  width: 150px;
+  height: 135px;
+  background-size: 100% auto;
+  position: absolute;
+  left: 290px;
+  top: -200px;
+  margin: 100px auto 0 auto;
+  border: 4px solid #ffffff;
+}
+.leaveAmessage {
+  position: absolute;
+  left: 290px;
+  top: 2800px;
+  width: 800px;
+  height: 300px;
+  background: #ffffff;
+  background-size: 100% auto;
+  margin: 100px auto 0 auto;
+}
+.leaveAmessage h2 {
+  font-size: 30px;
+  color: #000000;
+  text-align: center;
+  font-family: 'open scan', helvetica, arial, sans-serif;
+  font-weight: 300px;
+  font-style: normal;
+}
+#message{
+  list-style-type: none;
+  list-style-position: inside;
+  width:80%;
+  padding: 20px;
+}
+#message>li{
+   font-size: 20px;
+   color: #777777;
+   font-family: verdana,sans-serif;
+  line-height: 40px;
+}
+#name{
+
+}
+#button {
+  height: 30px;
+  width: 170px;
+  margin: 10px auto;
+  border-radius: 15px;
+  margin-left: 30px;
+  background-color: #00dd00;
+  text-align: center;
+  line-height: 17px;
+  font-size: 13px;
+  font-weight: bolder;
+  color: #000000;
+  box-shadow: #a2b5cd 0px 2px 0px 0px;
+}
